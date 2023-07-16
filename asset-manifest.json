@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/resumeBuilder/static/css/main.0cc17437.css",
+    "main.js": "/resumeBuilder/static/js/main.e11f72db.js",
+    "static/js/703.fcbbb8f9.chunk.js": "/resumeBuilder/static/js/703.fcbbb8f9.chunk.js",
+    "static/js/258.494b492c.chunk.js": "/resumeBuilder/static/js/258.494b492c.chunk.js",
+    "static/media/Work.jpg": "/resumeBuilder/static/media/Work.63440aa8e08d8bc8661d.jpg",
+    "static/media/resumethird.png": "/resumeBuilder/static/media/resumethird.c8e68772836e65d582d4.png",
+    "static/media/resumefour.png": "/resumeBuilder/static/media/resumefour.f2c1d95679b4f8554884.png",
+    "static/media/r2.jpg": "/resumeBuilder/static/media/r2.c206c15c7502c03826c1.jpg",
+    "static/media/insta.png": "/resumeBuilder/static/media/insta.a3724cafd64b49d14522.png",
+    "static/media/r1.jpg": "/resumeBuilder/static/media/r1.b54dce158ff1534056c1.jpg",
+    "static/media/link2.png": "/resumeBuilder/static/media/link2.2f75592bcdd1a9515909.png",
+    "static/media/wts.png": "/resumeBuilder/static/media/wts.996b65a87232ed054da1.png",
+    "static/media/emmm.png": "/resumeBuilder/static/media/emmm.1c8daa102de6bf17c72d.png",
+    "static/media/phone.png": "/resumeBuilder/static/media/phone.bd75406f2e5c310eb97f.png",
+    "static/media/website.png": "/resumeBuilder/static/media/website.9970fba39c5d704dd44d.png",
+    "static/media/arrow2.png": "/resumeBuilder/static/media/arrow2.0c8a210a6213a1ba3af1.png",
+    "static/media/email_ic.png": "/resumeBuilder/static/media/email_ic.f2e000b80d067eb62dd0.png",
+    "static/media/address.png": "/resumeBuilder/static/media/address.b0a6871e63c9b076c978.png",
+    "static/media/git3.png": "/resumeBuilder/static/media/git3.0dc1b35040a699a40386.png",
+    "static/media/web1.png": "/resumeBuilder/static/media/web1.a0e3c079e38d18995cf4.png",
+    "static/media/map.png": "/resumeBuilder/static/media/map.bfb163a07816a14f4a85.png",
+    "static/media/fb.png": "/resumeBuilder/static/media/fb.24536019b0c5bb9701a9.png",
+    "static/media/call.png": "/resumeBuilder/static/media/call.5f324769bb50e14f1e40.png",
+    "static/media/r_icon.png": "/resumeBuilder/static/media/r_icon.3519898c3fe10d9e0e30.png",
+    "static/media/profile3.jpg": "/resumeBuilder/static/media/profile3.9113a06b450c7543fbda.jpg",
+    "index.html": "/resumeBuilder/index.html",
+    "main.0cc17437.css.map": "/resumeBuilder/static/css/main.0cc17437.css.map",
+    "main.e11f72db.js.map": "/resumeBuilder/static/js/main.e11f72db.js.map",
+    "703.fcbbb8f9.chunk.js.map": "/resumeBuilder/static/js/703.fcbbb8f9.chunk.js.map",
+    "258.494b492c.chunk.js.map": "/resumeBuilder/static/js/258.494b492c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cc17437.css",
+    "static/js/main.e11f72db.js"
+  ]
+}
