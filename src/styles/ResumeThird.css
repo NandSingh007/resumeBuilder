@@ -1,0 +1,1510 @@
+.main_resume_page_div {
+    width: 80%;
+    margin: 10%;
+    /* display: flex !important; */
+    border: 1px solid rgb(223, 220, 220);
+}
+
+.resume_header_div {
+    margin-top: 40px;
+    display: flex;
+    padding: 10px 0px;
+    height: 200px;
+    background-color: rgb(231, 233, 235);
+    /* text-align: center; */
+    width: 100% !important;
+    /* margin-bottom: 50px; */
+}
+
+.resume_header_div .left_part_name {
+    text-align: center;
+    width: 70%;
+}
+
+.resume_header_div .right_part_img {
+    width: 30%;
+    text-align: center;
+}
+
+.inner_part {
+    display: flex;
+    width: 100%;
+   
+}
+
+.inner_left_part {
+    width: 35%;
+}
+
+.inner_right_part {
+    width: 65%;
+}
+
+.inner_left_part_cont{
+    border-bottom: 1px solid black;
+}
+.inner_right_part_profile{
+    border-bottom: 1px solid black;
+    height: 165px;
+}
+.right_part_img img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+.left_part_name_heading {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 45px;
+    /* margin-bottom: 50px; */
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left_part_title_heading {
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: right !important;
+    width: 500px;
+    /* word-spacing: 2px; */
+    letter-spacing: 4px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inner_left_part .inner_contact {
+   
+    text-align: left;
+    padding-left: 25px !important;
+    font-size: 29px;
+    /* width: 288px; */
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 15px 0px;
+}
+.inner_left_part{
+    border-right: 1px solid rgb(73, 73, 73);
+}
+.inner_left_part .inner_skills {
+   
+    text-align: left;
+    padding-left: 25px !important;
+    font-size: 29px;
+    /* width: 250px; */
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 15px 0px;
+}
+
+.inner_left_part .inner_education {
+   
+    text-align: left;
+    padding-left: 25px !important;
+    font-size: 29px;
+    /* width: 315px; */
+    padding: 15px 0px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.inner_right_part .right_profile {
+   
+    /* text-align: center;
+     */
+     text-align: left;
+     padding-left: 25px !important;
+     font-size: 29px;
+    /* width: 285px; */
+    padding: 15px 0px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.inner_right_part .right_work_experince {
+   
+    /* text-align: center; */
+    text-align: left;
+    padding-left: 25px !important;
+    font-size: 29px;
+    /* width: 410px; */
+    padding: 15px 0px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.inner_left_part_cont ul .detail{
+    list-style: none;
+    padding: 5px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.skills_detail{
+    padding: 5px 0px;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.education_div1 {
+    height: auto;
+    padding: 10px 0px;
+    padding-left: 25px;
+}
+
+.education_div1 .educatio_line1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.education_div1 .edication_detail1 {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aqua; */
+    font-size: 18px;
+    color: #000000;
+    text-transform: capitalize
+}
+.inner_right_part_profile .about_yourself{
+    font-size: 19px;
+    color: #000000;
+    text-align: left;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+}
+.work_experience_detail_div{
+    padding-left: 25px;
+    padding-top: 25px;
+}
+ .compny_name_line{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.work_detail{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.work_detail_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.work_detail_date{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.experience_second{
+    margin: 35px 0px;
+}
+
+
+
+@media (min-width: 950px) and (max-width: 1250px) {
+    
+.resume_header_div {
+    margin-top: 40px;
+    display: flex;
+    padding: 10px 0px;
+    height: auto;
+    /* text-align: center; */
+    width: 100% !important;
+    /* margin-bottom: 50px; */
+}
+
+.resume_header_div .left_part_name {
+    text-align: center;
+    width: 70%;
+}
+
+.resume_header_div .right_part_img {
+    width: 30%;
+    text-align: center;
+}
+
+.inner_part {
+    display: flex;
+    width: 100%;
+   
+}
+
+.inner_left_part {
+    width: 35%;
+}
+
+.inner_right_part {
+    width: 65%;
+}
+
+.inner_left_part_cont{
+    border-bottom: 1px solid black;
+}
+.inner_right_part_profile{
+    border-bottom: 1px solid black;
+    height: 160px;
+}
+.right_part_img img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.left_part_name_heading {
+    margin-top: 28px;
+    text-transform: uppercase;
+    font-size: 43px;
+    /* margin-bottom: 50px; */
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left_part_title_heading {
+    text-transform: uppercase;
+    font-size: 21px;
+    text-align: right !important;
+    width: 500px;
+    /* word-spacing: 2px; */
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inner_left_part .inner_contact {
+   
+    text-align: left;
+    padding-left: 21px !important;
+    font-size: 27px;
+    /* width: 288px; */
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 11px 0px;
+}
+.inner_left_part{
+    border-right: 1px solid rgb(73, 73, 73);
+}
+.inner_left_part .inner_skills {
+   
+    text-align: left;
+    padding-left: 21px !important;
+    font-size: 27px;
+    /* width: 250px; */
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 11px 0px;
+}
+
+.inner_left_part .inner_education {
+   
+    text-align: left;
+    padding-left: 21px !important;
+    font-size: 27px;
+    /* width: 315px; */
+    padding: 11px 0px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.inner_right_part .right_profile {
+   
+    /* text-align: center;
+     */
+     text-align: left;
+     padding-left: 21px !important;
+     font-size: 27px;
+    /* width: 285px; */
+    padding: 14px 0px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.inner_right_part .right_work_experince {
+   
+    /* text-align: center; */
+    text-align: left;
+    padding-left: 25px !important;
+    font-size: 27px;
+    /* width: 410px; */
+    padding: 14px 0px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.inner_left_part_cont ul .detail{
+    list-style: none;
+    padding: 3px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.skills_detail{
+    padding: 2x 0px;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.education_div1 {
+    height: auto;
+    padding: 10px 0px;
+    padding-left: 25px;
+}
+
+.education_div1 .educatio_line1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #000000;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.education_div1 .edication_detail1 {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aqua; */
+    font-size: 17px;
+    color: #000000;
+    text-transform: capitalize
+}
+.inner_right_part_profile .about_yourself{
+    font-size: 18px;
+    color: #000000;
+    text-align: left;
+    text-transform: capitalize;
+    padding: 8px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 21px;
+}
+.work_experience_detail_div{
+    padding-left: 21px;
+    padding-top: 21px;
+}
+ .compny_name_line{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.work_detail{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.work_detail_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.work_detail_date{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.experience_second{
+    margin: 35px 0px;
+}
+
+}
+
+
+@media (min-width: 770px) and (max-width: 950px) {
+    
+    .resume_header_div {
+        margin-top: 40px;
+        display: flex;
+        padding: 10px 0px;
+        height: auto;
+        /* text-align: center; */
+        width: 100% !important;
+        /* margin-bottom: 50px; */
+    }
+    
+    .resume_header_div .left_part_name {
+        text-align: center;
+        width: 70%;
+    }
+    
+    .resume_header_div .right_part_img {
+        width: 30%;
+        text-align: center;
+    }
+    
+    .inner_part {
+        display: flex;
+        width: 100%;
+       
+    }
+    
+    .inner_left_part {
+        width: 35%;
+    }
+    
+    .inner_right_part {
+        width: 65%;
+    }
+    
+    .inner_left_part_cont{
+        border-bottom: 1px solid black;
+    }
+    .inner_right_part_profile{
+        border-bottom: 1px solid black;
+        height: 160px;
+    }
+    .right_part_img img {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+    }
+    
+    .left_part_name_heading {
+        margin-top: 28px;
+        text-transform: uppercase;
+        font-size: 40px;
+        /* margin-bottom: 50px; */
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .left_part_title_heading {
+        text-transform: uppercase;
+        font-size: 19px;
+        text-align: center !important;
+        width: 500px;
+        /* word-spacing: 2px; */
+        letter-spacing: 3px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .inner_left_part .inner_contact {
+       
+        text-align: left;
+        padding-left: 21px !important;
+        font-size: 26px;
+        /* width: 288px; */
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding: 11px 0px;
+    }
+    .inner_left_part{
+        border-right: 1px solid rgb(73, 73, 73);
+    }
+    .inner_left_part .inner_skills {
+       
+        text-align: left;
+        padding-left: 21px !important;
+        font-size: 26px;
+        /* width: 250px; */
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding: 11px 0px;
+    }
+    
+    .inner_left_part .inner_education {
+       
+        text-align: left;
+        padding-left: 21px !important;
+        font-size: 26px;
+        /* width: 315px; */
+        padding: 11px 0px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    .inner_right_part .right_profile {
+       
+        /* text-align: center;
+         */
+         text-align: left;
+         padding-left: 21px !important;
+         font-size: 26px;
+        /* width: 285px; */
+        padding: 11px 0px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    .inner_right_part .right_work_experince {
+       
+        /* text-align: center; */
+        text-align: left;
+        padding-left: 21px !important;
+        font-size: 26px;
+        /* width: 410px; */
+        padding: 11px 0px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    .inner_left_part_cont ul .detail{
+        list-style: none;
+        padding: 3px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+    .skills_detail{
+        padding: 2x 0px;
+        margin-left: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+    
+    .education_div1 {
+        height: auto;
+        padding: 10px 0px;
+        padding-left: 21px;
+    }
+    
+    .education_div1 .educatio_line1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #000000;
+        margin-bottom: 0px !important;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    
+    .education_div1 .edication_detail1 {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 16px;
+        color: #000000;
+        margin-bottom: 0px !important;
+        text-transform: capitalize
+    }
+    .inner_right_part_profile .about_yourself{
+        font-size: 16px;
+        color: #000000;
+        text-align: left;
+        text-transform: capitalize;
+        padding: 8px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 21px;
+    }
+    .work_experience_detail_div{
+        padding-left: 21px;
+        padding-top: 21px;
+    }
+     .compny_name_line{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 21px;
+      font-weight: 800;
+      text-transform: capitalize;
+    }
+    .work_detail{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    .work_detail_title{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .work_detail_date{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .experience_second{
+        margin: 30px 0px;
+    }
+    
+    }
+
+    
+
+@media (min-width: 600px) and (max-width: 770px) {
+    
+    .resume_header_div {
+        margin-top: 30px;
+        display: flex;
+        padding: 10px 0px;
+        height: auto;
+        /* text-align: center; */
+        width: 100% !important;
+        /* margin-bottom: 50px; */
+    }
+    
+    .resume_header_div .left_part_name {
+        text-align: center;
+        width: 65%;
+    }
+    
+    .resume_header_div .right_part_img {
+        width: 30%;
+        text-align: center;
+    }
+    
+    .inner_part {
+        display: flex;
+        width: 100%;
+       
+    }
+    
+    .inner_left_part {
+        width: 35%;
+    }
+    
+    .inner_right_part {
+        width: 65%;
+    }
+    
+    .inner_left_part_cont{
+        border-bottom: 1px solid black;
+    }
+    .inner_right_part_profile{
+        border-bottom: 1px solid black;
+        height: 160px;
+    }
+    .right_part_img img {
+        width: 135px;
+        height: 135px;
+        border-radius: 50%;
+    }
+    
+    .left_part_name_heading {
+        margin-top: 25px;
+        text-transform: uppercase;
+        font-size: 36px;
+        /* margin-bottom: 50px; */
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .left_part_title_heading {
+        text-transform: uppercase;
+        font-size: 17px;
+        text-align: left !important;
+        width: 500px;
+        margin-left: 95px;
+        /* word-spacing: 2px; */
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .inner_left_part .inner_contact {
+       
+        text-align: left;
+        padding-left: 20px !important;
+        font-size: 24px;
+        /* width: 288px; */
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding: 9px 0px;
+    }
+    .inner_left_part{
+        border-right: 1px solid rgb(73, 73, 73);
+    }
+    .inner_left_part .inner_skills {
+       
+        text-align: left;
+        padding-left: 20px !important;
+        font-size: 24px;
+        /* width: 250px; */
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding: 10px 0px;
+    }
+    
+    .inner_left_part .inner_education {
+       
+        text-align: left;
+        padding-left: 20px !important;
+        font-size: 24px;
+        /* width: 315px; */
+        padding: 10px 0px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    .inner_right_part .right_profile {
+       
+        /* text-align: center;
+         */
+         text-align: left;
+         padding-left: 20px !important;
+         font-size: 24px;
+        /* width: 285px; */
+        padding: 10px 0px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    .inner_right_part .right_work_experince {
+       
+        /* text-align: center; */
+        text-align: left;
+        padding-left: 20px !important;
+        font-size: 24px;
+        /* width: 410px; */
+        padding: 10px 0px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    .inner_left_part_cont ul .detail{
+        list-style: none;
+        padding: 3px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+    .skills_detail{
+        padding: 2x 0px;
+        margin-left: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+    
+    .education_div1 {
+        height: auto;
+        padding: 10px 0px;
+        padding-left: 20px;
+    }
+    
+    .education_div1 .educatio_line1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #000000;
+        margin-bottom: 0px !important;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    
+    .education_div1 .edication_detail1 {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 15px;
+        color: #000000;
+        margin-bottom: 0px !important;
+        text-transform: capitalize
+    }
+    .inner_right_part_profile .about_yourself{
+        font-size: 15px;
+        color: #000000;
+        text-align: left;
+        text-transform: capitalize;
+        padding: 8px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 21px;
+    }
+    .work_experience_detail_div{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+     .compny_name_line{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      text-transform: capitalize;
+    }
+    .work_detail{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    .work_detail_title{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .work_detail_date{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .experience_second{
+        margin: 27px 0px;
+    }
+    
+    }
+
+    
+
+@media (min-width: 520px) and (max-width: 600px)  {
+    
+    .resume_header_div {
+        margin-top: 20px;
+        display: flex;
+        padding: 8px 0px;
+        height: auto;
+        /* text-align: center; */
+        width: 100% !important;
+        /* margin-bottom: 50px; */
+    }
+    
+    .resume_header_div .left_part_name {
+        text-align: center;
+        width: 65%;
+    }
+    
+    .resume_header_div .right_part_img {
+        width: 30%;
+        text-align: center;
+    }
+    
+    .inner_part {
+        display: flex;
+        width: 100%;
+       
+    }
+    
+    .inner_left_part {
+        width: 35%;
+    }
+    
+    .inner_right_part {
+        width: 65%;
+    }
+    
+    .inner_left_part_cont{
+        border-bottom: 1px solid black;
+    }
+    .inner_right_part_profile{
+        border-bottom: 1px solid black;
+        height: 160px;
+    }
+    .right_part_img img {
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+    }
+    
+    .left_part_name_heading {
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-size: 30px;
+        /* margin-bottom: 50px; */
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .left_part_title_heading {
+        text-transform: uppercase;
+        font-size: 15px;
+        text-align: left !important;
+        width: 500px;
+        margin-left: 90px;
+        /* word-spacing: 2px; */
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .inner_left_part .inner_contact {
+       
+        text-align: left;
+        padding-left: 13px !important;
+        font-size: 24px;
+        /* width: 288px; */
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding: 7px 0px;
+    }
+    .inner_left_part{
+        border-right: 1px solid rgb(73, 73, 73);
+    }
+    .inner_left_part .inner_skills {
+       
+        text-align: left;
+        padding-left: 15px !important;
+        font-size: 21px;
+        /* width: 250px; */
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding: 10px 0px;
+    }
+    
+    .inner_left_part .inner_education {
+       
+        text-align: left;
+        padding-left: 15px !important;
+        font-size: 21px;
+        /* width: 315px; */
+        padding: 8px 0px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    .inner_right_part .right_profile {
+       
+        /* text-align: center;
+         */
+         text-align: left;
+         padding-left: 15px !important;
+         font-size: 21px;
+        /* width: 285px; */
+        padding: 8px 0px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    .inner_right_part .right_work_experince {
+       
+        /* text-align: center; */
+        text-align: left;
+        padding-left: 15px !important;
+        font-size: 21px;
+        /* width: 410px; */
+        padding: 8px 0px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    .inner_left_part_cont ul .detail{
+        list-style: none;
+        padding: 2px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        text-transform: capitalize;
+    }
+    .skills_detail{
+        padding: 2x 0px;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        text-transform: capitalize;
+    }
+    
+    .education_div1 {
+        height: auto;
+        padding: 8px 0px;
+        padding-left: 15px;
+    }
+    
+    .education_div1 .educatio_line1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: #000000;
+        margin-bottom: 0px !important;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    
+    .education_div1 .edication_detail1 {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 13px;
+        color: #000000;
+        margin-bottom: 0px !important;
+        text-transform: capitalize
+    }
+    .inner_right_part_profile .about_yourself{
+        font-size: 13px;
+        color: #000000;
+        text-align: left;
+        text-transform: capitalize;
+        padding: 8px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 15px;
+    }
+    .work_experience_detail_div{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+     .compny_name_line{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      font-weight: 800;
+      text-transform: capitalize;
+    }
+    .work_detail{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    .work_detail_title{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .work_detail_date{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .experience_second{
+        margin: 23px 0px;
+    }
+    
+    }
+
+    
+@media (min-width: 420px) and (max-width: 520px)  {
+    
+    .resume_header_div {
+        margin-top: 15px;
+        display: flex;
+        padding: 6px 0px;
+        height: auto;
+        /* text-align: center; */
+        width: 100% !important;
+        /* margin-bottom: 50px; */
+    }
+    
+    .resume_header_div .left_part_name {
+        text-align: center;
+        width: 65%;
+    }
+    
+    .resume_header_div .right_part_img {
+        width: 30%;
+        text-align: center;
+    }
+    
+    .inner_part {
+        display: flex;
+        width: 100%;
+       
+    }
+    
+    .inner_left_part {
+        width: 35%;
+    }
+    
+    .inner_right_part {
+        width: 65%;
+    }
+    
+    .inner_left_part_cont{
+        border-bottom: 1px solid black;
+    }
+    .inner_right_part_profile{
+        border-bottom: 1px solid black;
+        height: 150px;
+    }
+    .right_part_img img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    
+    .left_part_name_heading {
+        margin-top: 16px;
+        text-transform: uppercase;
+        font-size: 26px;
+        /* margin-bottom: 50px; */
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .left_part_title_heading {
+        text-transform: uppercase;
+        font-size: 12px;
+        text-align: left !important;
+        width: 500px;
+        margin-left: 70px;
+        /* word-spacing: 2px; */
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .inner_left_part .inner_contact {
+       
+        text-align: left;
+        padding-left: 11px !important;
+        font-size: 20px;
+        /* width: 288px; */
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding: 7px 0px;
+    }
+    .inner_left_part{
+        border-right: 1px solid rgb(73, 73, 73);
+    }
+    .inner_left_part .inner_skills {
+       
+        text-align: left;
+        padding-left: 11px !important;
+        font-size: 18px;
+        /* width: 250px; */
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding: 8px 0px;
+    }
+    
+    .inner_left_part .inner_education {
+       
+        text-align: left;
+        padding-left: 11px !important;
+        font-size: 18px;
+        /* width: 315px; */
+        padding: 8px 0px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    .inner_right_part .right_profile {
+       
+        /* text-align: center;
+         */
+         text-align: left;
+         padding-left: 11px !important;
+         font-size: 18px;
+        /* width: 285px; */
+        padding: 8px 0px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    .inner_right_part .right_work_experince {
+       
+        /* text-align: center; */
+        text-align: left;
+        padding-left: 11px !important;
+        font-size: 18px;
+        /* width: 410px; */
+        padding: 8px 0px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    .inner_left_part_cont ul .detail{
+        list-style: none;
+        padding: 2px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        text-transform: capitalize;
+    }
+    .skills_detail{
+        padding: 2x 0px;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        text-transform: capitalize;
+    }
+    
+    .education_div1 {
+        height: auto;
+        padding: 8px 0px;
+        padding-left: 11px;
+    }
+    
+    .education_div1 .educatio_line1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #000000;
+        margin-bottom: 0px !important;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    
+    .education_div1 .edication_detail1 {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 11px;
+        color: #000000;
+        margin-bottom: 0px !important;
+        text-transform: capitalize
+    }
+    .inner_right_part_profile .about_yourself{
+        font-size: 11px;
+        color: #000000;
+        text-align: left;
+        text-transform: capitalize;
+        padding: 8px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 11px;
+    }
+    .work_experience_detail_div{
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+     .compny_name_line{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      font-weight: 800;
+      text-transform: capitalize;
+    }
+    .work_detail{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    .work_detail_title{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .work_detail_date{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .experience_second{
+        margin: 19px 0px;
+    }
+    
+    }
+    
+    
+@media (max-width: 420px){
+    
+    .resume_header_div {
+        margin-top: 11px;
+        display: flex;
+        padding: 6px 0px;
+        height: auto;
+        /* text-align: center; */
+        width: 100% !important;
+        /* margin-bottom: 50px; */
+    }
+    
+    .resume_header_div .left_part_name {
+        text-align: center;
+        width: 65%;
+    }
+    
+    .resume_header_div .right_part_img {
+        width: 30%;
+        text-align: center;
+    }
+    
+    .inner_part {
+        display: flex;
+        width: 100%;
+       
+    }
+    
+    .inner_left_part {
+        width: 35%;
+    }
+    
+    .inner_right_part {
+        width: 65%;
+    }
+    
+    .inner_left_part_cont{
+        border-bottom: 1px solid black;
+    }
+    .inner_right_part_profile{
+        border-bottom: 1px solid black;
+        height: 140px;
+    }
+    .right_part_img img {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+    }
+    
+    .left_part_name_heading {
+        margin-top: 15px;
+        text-transform: uppercase;
+        font-size: 22px;
+        /* margin-bottom: 50px; */
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .left_part_title_heading {
+        text-transform: uppercase;
+        font-size: 10px;
+        text-align: left !important;
+        width: 500px;
+        margin-left: 55px;
+        /* word-spacing: 2px; */
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .inner_left_part .inner_contact {
+       
+        text-align: left;
+        padding-left: 10px !important;
+        font-size: 17px;
+        /* width: 288px; */
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding: 5px 0px;
+    }
+    .inner_left_part{
+        border-right: 1px solid rgb(73, 73, 73);
+    }
+    .inner_left_part .inner_skills {
+       
+        text-align: left;
+        padding-left: 10px !important;
+        font-size: 15px;
+        /* width: 250px; */
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding: 8px 0px;
+    }
+    
+    .inner_left_part .inner_education {
+       
+        text-align: left;
+        padding-left: 10px !important;
+        font-size: 15px;
+        /* width: 315px; */
+        padding: 5px 0px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    .inner_right_part .right_profile {
+       
+        /* text-align: center;
+         */
+         text-align: left;
+         padding-left: 10px !important;
+         font-size: 15px;
+        /* width: 285px; */
+        padding: 5px 0px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    .inner_right_part .right_work_experince {
+       
+        /* text-align: center; */
+        text-align: left;
+        padding-left: 10px !important;
+        font-size: 15px;
+        /* width: 410px; */
+        padding: 5px 0px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    .inner_left_part_cont ul .detail{
+        list-style: none;
+        padding: 2px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        text-transform: capitalize;
+    }
+    .skills_detail{
+        padding: 2x 0px;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        text-transform: capitalize;
+    }
+    
+    .education_div1 {
+        height: auto;
+        padding: 5px 0px;
+        padding-left: 10px;
+    }
+    
+    .education_div1 .educatio_line1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        margin-bottom: 0px !important;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    
+    .education_div1 .edication_detail1 {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 10px;
+        color: #000000;
+        margin-bottom: 0px !important;
+        text-transform: capitalize
+    }
+    .inner_right_part_profile .about_yourself{
+        font-size: 10px;
+        color: #000000;
+        text-align: left;
+        text-transform: capitalize;
+        padding: 5px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 10px;
+    }
+    .work_experience_detail_div{
+        padding-left: 12px;
+        padding-top: 12px;
+    }
+     .compny_name_line{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: capitalize;
+    }
+    .work_detail{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    .work_detail_title{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .work_detail_date{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .experience_second{
+        margin: 15px 0px;
+    }
+    
+    }

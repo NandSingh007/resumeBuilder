@@ -1,0 +1,155 @@
+.container-fluid {
+    padding-top: 50px !important; /* Add padding at the top */
+    padding-bottom: 50px !important; /* Add padding at the bottom */
+    background-color: rgba(255, 255, 255, 0.959); /* Set background color */
+  }
+  
+  .Template {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Specify font family */
+    font-weight: 900; /* Set font weight */
+    font-size: 49px; /* Set font size */
+    padding-left: 10px; /* Add left padding */
+  }
+  
+  .heading_text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Specify font family */
+    font-weight: 300; /* Set font weight */
+    color: rgba(0, 0, 0, 0.796); /* Set text color */
+    font-size: 22px; /* Set font size */
+    padding-left: 15px; /* Add left padding */
+  }
+  
+  .box2 {
+    margin: 30px 0px !important; /* Set top and bottom margin */
+  }
+  
+  .box1 {
+    position: relative; /* Set position relative */
+    width: 100%; /* Set width to 100% */
+    border: 1px solid rgb(228, 228, 228);
+    height: 100%; /* Set height to 100% */
+    transition: transform .2s; /* Add transition effect for transform */
+  }
+  
+  .use_temp {
+    background-color: rgba(53, 53, 53, 0.626); /* Set background color */
+    opacity: 0; /* Set initial opacity to 0 */
+    width: 100%; /* Set width to 100% */
+    height: 100%; /* Set height to 100% */
+    transition: transform .2s; /* Add transition effect for transform */
+    top: 0px; /* Set top position */
+    position: absolute; /* Set position absolute */
+  }
+  
+  .box1:hover {
+    transform: scale(1.1); /* Scale the element on hover */
+  }
+  
+  .use_temp:hover {
+    opacity: 1; /* Change opacity on hover */
+    visibility: inherit; /* Show the element */
+    transform: scale(1); /* Reset transform */
+    transition-duration: 0.9s; /* Set transition duration */
+  }
+  
+  .btnn {
+    width: 100%; /* Set width to 100% */
+    top: 45%; /* Position the button */
+    text-align: center; /* Center align the button text */
+    position: absolute; /* Set position absolute */
+  }
+  
+  .box1 img {
+    border: 1px solid rgba(175, 175, 175, 0.137); /* Add border to the image */
+  }
+  
+  .experience ul .exp {
+    padding: 8px 25px; /* Set padding */
+    background-color: rgba(83, 82, 82, 0.918); /* Set background color */
+    display: inline; /* Display inline */
+    color: rgb(255, 255, 255) !important; /* Set text color */
+    text-decoration: none; /* Remove underline */
+    font-family: 'Times New Roman', Times, serif; /* Specify font family */
+    border: 1px solid rgb(153, 153, 153); /* Add border */
+    font-size: 20px; /* Set font size */
+    font-weight: 700; /* Set font weight */
+    margin-right: 20px; /* Set right margin */
+    cursor: pointer; /* Change cursor to pointer */
+    border-radius: 25px; /* Add border radius */
+  }
+  
+  .experience ul .exp:hover {
+    padding: 9px 25px; /* Adjust padding on hover */
+    color: rgb(0, 0, 0) !important; /* Set text color on hover */
+    background-color: rgb(255, 255, 255); /* Set background color on hover */
+    border: 1px solid rgb(81, 81, 83); /* Add border on hover */
+  }
+  
+  .experience {
+    margin: 40px 0px;
+    padding-right: 100px; /* Add right padding */
+    text-align: right; /* Align text to the right */
+  }
+  
+  @media (min-width: 400px) and (max-width: 810px) {
+    .experience ul .exp {
+      padding: 8px 25px; /* Set padding */
+      width: 190px !important; /* Set width */
+      background-color: rgba(83, 82, 82, 0.918); /* Set background color */
+      display: block !important; /* Display as block */
+      color: rgb(255, 255, 255) !important; /* Set text color */
+      text-align: center !important; /* Center align text */
+      text-decoration: none; /* Remove underline */
+      font-family: 'Times New Roman', Times, serif; /* Specify font family */
+      border: 1px solid rgb(153, 153, 153); /* Add border */
+      font-size: 19px; /* Set font size */
+      font-weight: 700; /* Set font weight */
+      margin-top: 20px; /* Set top margin */
+      margin-right: 20px; /* Set right margin */
+      cursor: pointer; /* Change cursor to pointer */
+      border-radius: 25px; /* Add border radius */
+    }
+  
+    .experience ul {
+      margin-left: 0px !important; /* Remove left margin */
+    }
+  
+    .experience ul .exp:hover {
+      padding: 9px 25px; /* Adjust padding on hover */
+      color: rgb(0, 0, 0) !important; /* Set text color on hover */
+      background-color: rgb(255, 255, 255); /* Set background color on hover */
+      border: 1px solid rgb(81, 81, 83); /* Add border on hover */
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .experience ul .exp {
+      padding: 8px 25px; /* Set padding */
+      width: 170px !important; /* Set width */
+      background-color: rgba(83, 82, 82, 0.918); /* Set background color */
+      display: block !important; /* Display as block */
+      color: rgb(255, 255, 255) !important; /* Set text color */
+      text-align: center !important; /* Center align text */
+      text-decoration: none; /* Remove underline */
+      font-family: 'Times New Roman', Times, serif; /* Specify font family */
+      border: 1px solid rgb(153, 153, 153); /* Add border */
+      font-size: 18px; /* Set font size */
+      font-weight: 700; /* Set font weight */
+      margin-top: 20px; /* Set top margin */
+      margin-right: 20px; /* Set right margin */
+      cursor: pointer; /* Change cursor to pointer */
+      border-radius: 25px; /* Add border radius */
+    }
+  
+    .experience ul {
+      margin-left: 0px !important; /* Remove left margin */
+    }
+  
+    .experience ul .exp:hover {
+      padding: 9px 25px; /* Adjust padding on hover */
+      color: rgb(0, 0, 0) !important; /* Set text color on hover */
+      background-color: rgb(255, 255, 255); /* Set background color on hover */
+      border: 1px solid rgb(81, 81, 83); /* Add border on hover */
+    }
+  }
+  

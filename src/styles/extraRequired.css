@@ -1,0 +1,27 @@
+.add_more_btnn {
+    text-align: right; /* Set text alignment to right for elements with the class add_more_btnn */
+  }
+  
+  .btn_group_main_new {
+    text-align: left; /* Set text alignment to left for elements with the class btn_group_main_new */
+  }
+  
+  .row > * {
+    padding-right: calc(var(--bs-gutter-x) * .5); /* Set right padding using the value of the bs-gutter-x variable */
+    padding-left: calc(var(--bs-gutter-x) * .7) !important; /* Set left padding using the value of the bs-gutter-x variable and override any existing left padding */
+    margin-top: var(--bs-gutter-y); /* Set top margin using the value of the bs-gutter-y variable */
+  }
+  
+  .btn_group .btn_group_main {
+    text-align: right; /* Set text alignment to right for elements with the class btn_group_main within the btn_group class */
+  }
+  
+  @media (min-width: 768px) {
+    .col-md-6 {
+      flex: 0 0 auto; /* Disable flex growth and shrink for elements with the class col-md-6 */
+      padding-left: 0px; /* Set left padding to 0 for elements with the class col-md-6 */
+      padding-right: 0px; /* Set right padding to 0 for elements with the class col-md-6 */
+      width: 49% !important; /* Set width to 49% for elements with the class col-md-6, and override any existing width */
+    }
+  }
+  

@@ -1,0 +1,9 @@
+/* toastStyles.css */
+
+/* Center the toast notifications */
+.toastify-container {
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+  }
+  

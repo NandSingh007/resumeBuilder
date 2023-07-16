@@ -1,0 +1,1137 @@
+/* Reset styles for the entire page */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Styling for the main box */
+.main_box {
+    height: auto;
+    width: 80%;
+    margin: 5% 10%;
+    border: 1px solid black;
+}
+
+/* Styling for links in port_list1 */
+.port_list1 a {
+    color: #eef3f1;
+}
+
+/* Styling for links in port_list2 */
+.port_list2 a {
+    color: rgb(42, 100, 157);
+    text-decoration: none;
+}
+
+/* Styling for the first div */
+.first_div {
+    background-color: #ebcabb;
+    height: 185px;
+    margin-top: 25px;
+    width: 80%;
+    position: absolute;
+    text-align: center;
+}
+
+.first_div .user {
+    padding-left: 20px;
+}
+
+/* Styling for the second div */
+.second_div {
+    background-color: #6b9999;
+    width: 34%;
+    height: auto;
+    position: relative;
+    padding-top: 25px;
+    top: 0px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+/* Removing list styles from portfolioo1, portfolioo, and port_list1 */
+ul .portfolioo1,
+.portfolioo,
+.port_list1 {
+    list-style: none !important;
+}
+
+/* Styling for the mg class */
+.mg img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    border: 4px solid white;
+}
+
+.second_div_main {
+    display: flex;
+    width: 100%;
+}
+
+/* 
+.Skills {
+    padding-top: 20px;
+} */
+
+/* Styling for potfolio and contact */
+.potfolio,
+.contact {
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 45px;
+}
+
+/* Styling for portfolioo */
+.portfolioo {
+    font-size: 24px;
+    padding-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #f4f3f3 !important;
+}
+
+/* Removing list styles from portfolio_list1 */
+.portfolio_list1 li {
+    list-style: none !important;
+}
+
+/* Styling for portfolio_list1 */
+.portfolio_list1 {
+    padding-right: 10px !important;
+}
+
+/* Styling for portfolioo1 in portfolio_list1 */
+.portfolio_list1 .portfolioo1 {
+    font-size: 29px;
+    font-weight: bold;
+    padding-left: 8px !important;
+    padding-top: 16px !important;
+    padding-bottom: 0px;
+    color: #3b3935;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styling for port_list1 in portfolio_list */
+.portfolio_list .port_list1 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding: 5px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #dce2e1 !important;
+    text-transform: capitalize;
+}
+
+/* Styling for portfolio_list */
+.portfolio_list {
+    padding-left: 5px !important;
+    padding-right: 1px !important;
+}
+
+/* Styling for links in port_list1 in portfolio_list */
+.portfolio_list .port_list1 a {
+    color: #dcdee2 !important;
+    text-decoration: none;
+}
+
+/* Styling for collage_name in portfolio_list1 */
+.portfolio_list1 .collage_name {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+    /* background-color: azure; */
+    padding-left: 30px !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Styling for graduation_name in portfolio_list1 */
+.portfolio_list1 .graduation_name {
+    font-size: 16px;
+    /* background-color: #739cf0; */
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 30px !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Styling for port_list2 in portfolio_list1 */
+.portfolio_list1 .port_list2 {
+    font-size: 17px;
+    padding: 1px 0px;
+    padding-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Styling for company_name in portfolio_list1 */
+.portfolio_list1 .company_name {
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 1px 0px;
+    padding-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Styling for links in port_list2 in portfolio_list1 */
+.portfolio_list1 .port_list2 a {
+    color: #739cf0 !important;
+}
+
+/* Styling for user_name in first_div */
+.first_div .user_name {
+    color: #3b3935;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 80px;
+    margin: auto;
+    margin-top: 33px !important;
+    width: 340px;
+    text-align: left;
+}
+
+.container_text {
+    width: 70%;
+    margin-top: 220px;
+}
+
+/* Styling for the user class */
+.user {
+    color: rgb(49, 48, 48);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 21px;
+    padding: 0px;
+    margin: 0px;
+    margin: auto;
+    text-align: left;
+    width: 212px;
+}
+
+/* Styling for Designer_detail_page__UhzFZ */
+.Designer_detail_page__UhzFZ {
+    width: 90%;
+    margin: 5% 5%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Media query for screens with maximum width of 575px */
+@media (max-width: 575px) {
+    .Designer_detail_page__UhzFZ {
+        display: inline !important;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* Media query for screens between 950px and 1100px */
+@media (min-width: 950px) and (max-width: 1100px) {
+
+    /* Adjusting styles for the first_div */
+    .first_div {
+        background-color: #ebcabb;
+        height: 175px;
+        margin-top: 25px;
+        width: 80%;
+        position: absolute;
+        text-align: center;
+    }
+
+    .first_div .user {
+        padding-left: 20px;
+    }
+
+    /* Adjusting styles for the second_div */
+    .second_div {
+        background-color: #6b9999;
+        width: 34%;
+        height: auto;
+        position: relative;
+        padding-top: 25px;
+        top: 0px;
+        margin-left: 25px;
+        text-align: center;
+    }
+
+    /* Adjusting styles for the mg class */
+    .mg img {
+        width: 165px;
+        height: 165px;
+        border-radius: 50%;
+        background-color: aliceblue;
+        border: 4px solid white;
+    }
+
+    /* Adjusting styles for potfolio and contact */
+    .potfolio,
+    .contact {
+        text-align: left;
+        padding-left: 5px;
+        padding-top: 35px;
+    }
+
+    /* Adjusting styles for portfolioo */
+    .portfolioo {
+        font-size: 22px;
+        padding-left: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: #f4f3f3 !important;
+    }
+
+    /* Adjusting styles for portfolio_list1 */
+    .portfolio_list1 .portfolioo1 {
+        font-size: 24px;
+        font-weight: bold;
+        padding-left: 8px;
+        padding-top: 16px !important;
+        padding-bottom: 0px;
+        color: #3b3935;
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    /* Adjusting styles for port_list1 in portfolio_list */
+    .portfolio_list .port_list1 {
+        font-size: 14px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        padding: 5px 0px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #dce2e1 !important;
+        text-transform: capitalize;
+    }
+
+    /* Adjusting styles for portfolio_list */
+    .portfolio_list {
+        padding-left: 5px !important;
+        padding-right: 1px !important;
+    }
+
+    /* Adjusting styles for links in port_list1 in portfolio_list */
+    .portfolio_list .port_list1 a {
+        color: #dcdee2 !important;
+        text-decoration: none;
+    }
+
+    /* Adjusting styles for collage_name in portfolio_list1 */
+    .portfolio_list1 .collage_name {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: capitalize;
+        padding: 1px 0px;
+        padding-left: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for graduation_name in portfolio_list1 */
+    .portfolio_list1 .graduation_name {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 1px 0px;
+        text-transform: capitalize;
+        padding-left: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for port_list2 in portfolio_list1 */
+    .portfolio_list1 .port_list2 {
+        font-size: 16px;
+        padding: 1px 0px;
+        padding-left: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for company_name in portfolio_list1 */
+    .portfolio_list1 .company_name {
+        font-size: 17px;
+        font-weight: bold;
+        text-transform: capitalize;
+        padding: 1px 0px;
+        padding-left: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for links in port_list2 in portfolio_list1 */
+    .portfolio_list1 .port_list2 a {
+        color: #739cf0 !important;
+    }
+
+    /* Adjusting styles for user_name in first_div */
+    .first_div .user_name {
+        color: #3b3935;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-left: 80px;
+        margin: auto;
+        margin-top: 33px !important;
+        width: 340px;
+        text-align: left;
+    }
+
+    .container_text {
+        width: 70%;
+        margin-top: 210px;
+    }
+
+    /* Adjusting styles for the user class */
+    .user {
+        color: rgb(49, 48, 48);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 18px;
+        /* 21px */
+        padding: 0px;
+        margin: 0px;
+        margin: auto;
+        text-align: left;
+        width: 212px;
+    }
+}
+/* Media query for screens between 650px and 950px */
+@media (min-width: 650px) and (max-width: 950px) {
+
+    /* Adjusting styles for the first_div */
+    .first_div {
+        background-color: #ebcabb;
+        height: 150px;
+        margin-top: 25px;
+        width: 80%;
+        position: absolute;
+        text-align: center;
+    }
+
+    /* Adjusting styles for the user class inside first_div */
+    .first_div .user {
+        padding-left: 30px;
+    }
+
+    /* Adjusting styles for the second_div */
+    .second_div {
+        background-color: #6b9999;
+        width: 34%;
+        height: auto;
+        position: relative;
+        padding-top: 25px;
+        top: 0px;
+        margin-left: 25px;
+        text-align: center;
+    }
+
+    /* Adjusting styles for the mg class */
+    .mg img {
+        width: 155px;
+        height: 155px;
+        border-radius: 50%;
+        background-color: aliceblue;
+        border: 4px solid white;
+    }
+
+    /* Adjusting styles for potfolio and contact */
+    .potfolio,
+    .contact {
+        text-align: left;
+        padding-left: 5px;
+        padding-top: 35px;
+    }
+
+    /* Adjusting styles for portfolioo */
+    .portfolioo {
+        font-size: 22px;
+        padding-left: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: #f4f3f3 !important;
+    }
+
+    /* Adjusting styles for portfolio_list1 */
+    .portfolio_list1 .portfolioo1 {
+        font-size: 19px;
+        font-weight: bold;
+        padding-left: 8px;
+        padding-top: 10px !important;
+        padding-bottom: 0px;
+        color: #3b3935;
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    /* Adjusting styles for port_list1 in portfolio_list */
+    .portfolio_list .port_list1 {
+        font-size: 14px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        padding: 5px 0px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #dce2e1 !important;
+        text-transform: capitalize;
+    }
+
+    /* Adjusting styles for portfolio_list */
+    .portfolio_list {
+        padding-left: 5px !important;
+        padding-right: 1px !important;
+    }
+
+    /* Adjusting styles for links in port_list1 in portfolio_list */
+    .portfolio_list .port_list1 a {
+        color: #dcdee2 !important;
+        text-decoration: none;
+    }
+
+    /* Adjusting styles for collage_name in portfolio_list1 */
+    .portfolio_list1 .collage_name {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: capitalize;
+        padding: 1px 0px;
+        padding-left: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for graduation_name in portfolio_list1 */
+    .portfolio_list1 .graduation_name {
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 1px 0px;
+        padding-left: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for port_list2 in portfolio_list1 */
+    .portfolio_list1 .port_list2 {
+        font-size: 16px;
+        padding: 1px 0px;
+        padding-left: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for company_name in portfolio_list1 */
+    .portfolio_list1 .company_name {
+        font-size: 17px;
+        font-weight: bold;
+        text-transform: capitalize;
+        padding: 1px 0px;
+        padding-left: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for links in port_list2 in portfolio_list1 */
+    .portfolio_list1 .port_list2 a {
+        color: #739cf0 !important;
+    }
+
+    /* Adjusting styles for user_name in first_div */
+    .first_div .user_name {
+        color: #3b3935;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-left: 80px;
+        margin: auto;
+        margin-top: 25px !important;
+        width: 230px;
+        text-align: left;
+    }
+
+    .container_text {
+        width: 70%;
+        margin-top: 210px;
+    }
+
+    /* Adjusting styles for the user class */
+    .user {
+        color: rgb(49, 48, 48);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 18px;
+        /* 21px */
+        /* padding: 0px;
+        margin: 0px;
+        margin: auto; */
+        text-align: center;
+        width: 600px;
+    }
+}
+
+/* Media query for screens between 570px and 650px */
+@media (min-width: 570px) and (max-width: 650px) {
+
+    /* Adjusting styles for the user class */
+    .user {
+        color: rgb(49, 48, 48);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 16px;
+        /* 21px */
+        /* padding: 0px;
+        margin: 0px;
+        margin: auto; */
+        text-align: center;
+        width: 510px;
+    }
+}
+
+/* Media query for screens between 540px and 570px */
+@media (min-width: 540px) and (max-width: 570px) {
+
+    /* Adjusting styles for the user class */
+    .user {
+        color: rgb(49, 48, 48);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 16px;
+        /* 21px */
+        /* padding: 0px;
+        margin: 0px;
+        margin: auto; */
+        text-align: center;
+        width: 480px;
+    }
+}
+
+/* Media query for screens between 500px and 540px */
+@media (min-width: 500px) and (max-width: 540px) {
+
+    /* Adjusting styles for the user class */
+    .user {
+        color: rgb(49, 48, 48);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 16px;
+        /* 21px */
+        /* padding: 0px;
+        margin: 0px;
+        margin: auto; */
+        text-align: center;
+        width: 430px;
+    }
+}
+
+/* Media query for screens between 400px and 500px */
+@media (min-width: 400px) and (max-width: 500px) {
+
+    /* Adjusting styles for the user class */
+    .user {
+        color: rgb(49, 48, 48);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14px;
+        /* 21px */
+        /* padding: 0px;
+        margin: 0px;
+        margin: auto; */
+        text-align: center;
+        /* background-color: #dce2e1; */
+        width: 300px;
+    }
+}
+
+/* Media query for screens between 500px and 650px */
+@media (min-width: 500px) and (max-width: 650px) {
+
+    /* Adjusting styles for the first_div */
+    .first_div {
+        background-color: #ebcabb;
+        height: 140px;
+        margin-top: 21px;
+        width: 80%;
+        position: absolute;
+        text-align: center;
+    }
+
+    /* Adjusting styles for the user class inside first_div */
+    .first_div .user {
+        padding-left: 30px;
+    }
+
+    /* Adjusting styles for the second_div */
+    .second_div {
+        background-color: #6b9999;
+        width: 31%;
+        height: auto;
+        position: relative;
+        padding-top: 25px;
+        top: 0px;
+        margin-left: 25px;
+        text-align: center;
+    }
+
+    /* Adjusting styles for the mg class */
+    .mg img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: aliceblue;
+        border: 4px solid white;
+    }
+
+    /* Adjusting styles for potfolio and contact */
+    .potfolio,
+    .contact {
+        text-align: left;
+        padding-left: 5px;
+        padding-top: 31px;
+    }
+
+    /* Adjusting styles for portfolioo */
+    .portfolioo {
+        font-size: 20px;
+        padding-left: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: #f4f3f3 !important;
+    }
+
+    /* Adjusting styles for portfolio_list1 */
+    .portfolio_list1 .portfolioo1 {
+        font-size: 16px;
+        font-weight: bold;
+        padding-left: 8px;
+        padding-top: 10px !important;
+        padding-bottom: 0px;
+        color: #3b3935;
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    /* Adjusting styles for port_list1 in portfolio_list */
+    .portfolio_list .port_list1 {
+        font-size: 14px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        padding: 5px 0px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #dce2e1 !important;
+        text-transform: capitalize;
+    }
+
+    /* Adjusting styles for portfolio_list */
+    .portfolio_list {
+        padding-left: 5px !important;
+        padding-right: 1px !important;
+    }
+
+    /* Adjusting styles for links in port_list1 in portfolio_list */
+    .portfolio_list .port_list1 a {
+        color: #dcdee2 !important;
+        text-decoration: none;
+    }
+
+    /* Adjusting styles for collage_name in portfolio_list1 */
+    .portfolio_list1 .collage_name {
+        font-size: 14px;
+        font-weight: bold;
+        padding: 1px 0px;
+        text-transform: capitalize;
+        padding-left: 15px !important;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for graduation_name in portfolio_list1 */
+    .portfolio_list1 .graduation_name {
+        font-size: 14px;
+        font-weight: bold;
+        padding: 1px 0px;
+        text-transform: capitalize;
+        padding-left: 15px !important;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for port_list2 in portfolio_list1 */
+    .portfolio_list1 .port_list2 {
+        font-size: 15px;
+        padding: 1px 0px;
+        padding-left: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for company_name in portfolio_list1 */
+    .portfolio_list1 .company_name {
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: capitalize;
+        padding: 1px 0px;
+        padding-left: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for links in port_list2 in portfolio_list1 */
+    .portfolio_list1 .port_list2 a {
+        color: #739cf0 !important;
+    }
+
+    /* Adjusting styles for user_name in first_div */
+    .first_div .user_name {
+        color: #3b3935;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-left: 80px;
+        margin: auto;
+        margin-top: 25px !important;
+        width: 200px;
+        text-align: left;
+    }
+
+    .container_text {
+        width: 70%;
+        margin-top: 175px;
+    }
+}
+
+/* Media query for screens between 400px and 500px */
+@media (min-width: 400px) and (max-width: 500px) {
+
+    /* Adjusting styles for the first_div */
+    .first_div {
+        background-color: #ebcabb;
+        height: 105px;
+        margin-top: 21px;
+        width: 80%;
+        position: absolute;
+        text-align: center;
+    }
+
+    /* Adjusting styles for the user class inside first_div */
+    .first_div .user {
+        padding-left: 30px;
+    }
+
+    /* Adjusting styles for the second_div */
+    .second_div {
+        background-color: #6b9999;
+        width: 26%;
+        height: auto;
+        position: relative;
+        padding-top: 15px;
+        top: 0px;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    /* Adjusting styles for the mg class */
+    .mg img {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        background-color: aliceblue;
+        border: 4px solid white;
+    }
+
+    /* Adjusting styles for potfolio and contact */
+    .potfolio,
+    .contact {
+        text-align: left;
+        padding-left: 5px;
+        padding-top: 31px;
+    }
+
+    /* Adjusting styles for portfolioo */
+    .portfolioo {
+        font-size: 15px;
+        padding-left: 2px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: #f4f3f3 !important;
+    }
+
+    /* Adjusting styles for portfolio_list1 */
+    .portfolio_list1 .portfolioo1 {
+        font-size: 14px;
+        font-weight: bold;
+        padding-left: 8px;
+        padding-top: 5px !important;
+        padding-bottom: 0px;
+        color: #3b3935;
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    /* Adjusting styles for port_list1 in portfolio_list */
+    .portfolio_list .port_list1 {
+        font-size: 13px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        padding: 2px 0px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #dce2e1 !important;
+        text-transform: capitalize;
+    }
+
+    /* Adjusting styles for portfolio_list */
+    .portfolio_list {
+        padding-left: 5px !important;
+        padding-right: 1px !important;
+    }
+
+    /* Adjusting styles for links in port_list1 in portfolio_list */
+    .portfolio_list .port_list1 a {
+        color: #dcdee2 !important;
+        text-decoration: none;
+    }
+
+    /* Adjusting styles for collage_name in portfolio_list1 */
+    .portfolio_list1 .collage_name {
+        font-size: 13px;
+        text-transform: capitalize;
+        font-weight: bold;
+        padding: 1px 0px;
+        padding-left: 10px !important;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for graduation_name in portfolio_list1 */
+    .portfolio_list1 .graduation_name {
+        font-size: 13px;
+        font-weight: bold;
+        padding: 1px 0px;
+        text-transform: capitalize;
+        padding-left: 10px !important;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for port_list2 in portfolio_list1 */
+    .portfolio_list1 .port_list2 {
+        font-size: 13px;
+        padding: 1px 0px;
+        padding-left: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for company_name in portfolio_list1 */
+    .portfolio_list1 .company_name {
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: capitalize;
+        padding: 1px 0px;
+        padding-left: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for links in port_list2 in portfolio_list1 */
+    .portfolio_list1 .port_list2 a {
+        color: #739cf0 !important;
+    }
+
+    /* Adjusting styles for user_name in first_div */
+    .first_div .user_name {
+        color: #3b3935;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-left: 60px;
+        margin: auto;
+        margin-top: 20px !important;
+        width: 200px;
+        text-align: left;
+    }
+
+    .container_text {
+        width: 70%;
+        margin-top: 150px;
+    }
+}
+
+/* Media query for screens between 300px and 400px */
+@media (min-width: 300px) and (max-width: 400px) {
+
+    /* Adjusting styles for the user class */
+    .user {
+        color: rgb(49, 48, 48);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 14px;
+        /* 21px */
+        /* padding: 0px;
+        margin: 0px;
+        margin: auto; */
+        text-align: center;
+        /* background-color: #dce2e1;s */
+        width: 300px;
+    }
+
+    /* Adjusting styles for the first_div */
+    .first_div {
+        background-color: #ebcabb;
+        height: 100px;
+        margin-top: 16px;
+        width: 80%;
+        position: absolute;
+        text-align: center;
+    }
+
+    /* Adjusting styles for the user class inside first_div */
+    .first_div .user {
+        padding-left: 30px;
+    }
+
+    /* Adjusting styles for the second_div */
+    .second_div {
+        background-color: #6b9999;
+        width: 26%;
+        height: auto;
+        position: relative;
+        padding-top: 15px;
+        top: 0px;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    /* Adjusting styles for the mg class */
+    .mg img {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        background-color: aliceblue;
+        border: 4px solid white;
+    }
+
+    /* Adjusting styles for potfolio and contact */
+    .potfolio,
+    .contact {
+        text-align: left;
+        padding-left: 5px;
+        padding-top: 30px;
+    }
+
+    /* Adjusting styles for portfolioo */
+    .portfolioo {
+        font-size: 13px;
+        padding-left: 2px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: #f4f3f3 !important;
+    }
+
+    /* Adjusting styles for portfolio_list1 */
+    .portfolio_list1 .portfolioo1 {
+        font-size: 12px;
+        font-weight: bold;
+        padding-left: 1px !important;
+        padding-top: 5px !important;
+        padding-bottom: 0px;
+        color: #3b3935;
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    /* Adjusting styles for port_list1 in portfolio_list */
+    .portfolio_list .port_list1 {
+        font-size: 12px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        padding: 2px 0px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #dce2e1 !important;
+        text-transform: capitalize;
+    }
+
+    /* Adjusting styles for portfolio_list */
+    .portfolio_list {
+        padding-left: 1px !important;
+        padding-right: 1px !important;
+    }
+
+    /* Adjusting styles for links in port_list1 in portfolio_list */
+    .portfolio_list .port_list1 a {
+        color: #dcdee2 !important;
+        text-decoration: none;
+    }
+
+    /* Adjusting styles for collage_name in portfolio_list1 */
+    .portfolio_list1 .collage_name {
+        font-size: 11px;
+        font-weight: bold;
+        padding: 1px 0px;
+        padding-left: 1px !important;
+        text-transform: capitalize;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for graduation_name in portfolio_list1 */
+    .portfolio_list1 .graduation_name {
+        font-size: 11px;
+        font-weight: bold;
+        padding: 1px 0px;
+        text-transform: capitalize;
+        padding-left: 1px !important;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for port_list2 in portfolio_list1 */
+    .portfolio_list1 .port_list2 {
+        font-size: 12px;
+        padding: 1px 0px;
+        padding-left: 1px !important;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for company_name in portfolio_list1 */
+    .portfolio_list1 .company_name {
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: capitalize;
+        padding: 1px 0px;
+        padding-left: 1px !important;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Adjusting styles for links in port_list2 in portfolio_list1 */
+    .portfolio_list1 .port_list2 a {
+        color: #739cf0 !important;
+    }
+
+    /* Adjusting styles for user_name in first_div */
+    .first_div .user_name {
+        color: #3b3935;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-left: 60px;
+        margin: auto;
+        margin-top: 20px !important;
+        width: 200px;
+        text-align: left;
+    }
+
+    .container_text {
+        width: 70%;
+        margin-top: 140px;
+    }
+}
+
+/* Additional styles for download_pdf_div */
+.download_pdf_div{
+    text-align: right;
+    margin-top: 30px;
+}
+
+.download_pdf_div button {
+    color: white !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 18px !important;
+}
+
+.download_divsion{
+    padding: 50px 0px;
+}
+
+/* Additional styles for Input_div */
+.Input_div{
+    text-align: right;
+}
+
+.Input_div .para_div{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px !important;
+    margin:  0px !important;
+}

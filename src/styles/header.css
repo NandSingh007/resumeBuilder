@@ -1,0 +1,105 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: 'Poppins', sans-serif; /* Specify font family */
+    background-color: #fcfcfc; /* Set background color */
+  }
+  
+  .container {
+    max-width: 1100px; /* Set maximum width of the container */
+    margin: 0 auto; /* Center align the container */
+    padding: 0 15px; /* Set padding inside the container */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space elements evenly horizontally */
+    align-items: center; /* Center align elements vertically */
+    height: 100%; /* Set height of the container */
+  }
+  
+  .navbar {
+    height: 45px; /* Set height of the navbar */
+    box-shadow: 2px 3px 8px 0px rgb(180, 180, 180); /* Add box shadow to the navbar */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Specify font family */
+    background-color: #ffffff; /* Set background color */
+    font-size: 19px; /* Set font size */
+    position: relative; /* Set position relative for child elements */
+  }
+  
+  .logo {
+    height: 40px; /* Set height of the logo */
+  }
+  
+  .menu-icon {
+    display: none; /* Hide the menu icon by default */
+  }
+  
+  .nav-elements ul {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space elements evenly horizontally */
+    list-style-type: none; /* Remove default list style */
+  }
+  
+  .nav-elements ul li:not(:last-child) {
+    margin-right: 60px; /* Add margin between list items */
+  }
+  
+  .nav-elements ul a {
+    font-size: 16px; /* Set font size */
+    font-weight: 400; /* Set font weight */
+    color: #2f234f; /* Set text color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .nav-elements ul a.active {
+    color: #574c4c; /* Set active link color */
+    font-weight: 500; /* Set active link font weight */
+    position: relative; /* Set position relative for pseudo-element */
+  }
+  
+  .nav-elements ul a.active::after {
+    content: ''; /* Create pseudo-element */
+    position: absolute; /* Set position absolute */
+    bottom: -4px; /* Position it below the text */
+    left: 0; /* Align it with the left edge of the link */
+    width: 100%; /* Set width to 100% of the link */
+    height: 2px; /* Set height of the line */
+    background-color: #574c4c; /* Set line color */
+  }
+  
+  @media (max-width: 768px) {
+    .nav-elements ul li:not(:last-child) {
+      margin-right: 30px; /* Adjust margin between list items for smaller screens */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .menu-icon {
+      display: block; /* Display the menu icon for smaller screens */
+      cursor: pointer; /* Change cursor to pointer */
+    }
+  
+    .nav-elements {
+      position: absolute; /* Set position absolute */
+      right: 0; /* Align it to the right */
+      top: 60px; /* Position it below the navbar */
+      background-color: #bbbbba; /* Set background color */
+      width: 0px; /* Initially hide the elements */
+      height: 200px !important; /* Calculate height based on viewport height */
+      transition: all 0.3s ease-in; /* Add transition effect */
+      overflow: hidden; /* Hide overflowing content */
+    }
+  
+    .nav-elements.active {
+      width: 270px; /* Show the elements by increasing width */
+    }
+  
+    .nav-elements ul {
+      display: flex; /* Use flexbox for layout */
+      flex-direction: column; /* Arrange elements vertically */
+    }
+  
+    .nav-elements ul li {
+      margin-right: unset; /* Remove right margin */
+      margin-top: 22px; /* Add margin at the top of list items */
+    }
+  }
+  

@@ -1,0 +1,1467 @@
+* {
+    margin: 0px;
+    color: black !important;
+    padding: 0px;
+}
+
+.second2resume {
+    width: 90%;
+    color: #000000 !important;
+    border: 1px solid black;
+    height: auto;
+    padding: 10px 0px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    margin: 7%;
+}
+
+.header_part2 {
+    /* background-color: antiquewhite; */
+    padding: 10px 0px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.btn_group_main {
+    text-align: right;
+}
+
+.second2resume .heading_name {
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-size: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn_group_main_new {
+    text-align: left;
+}
+
+.add_more_btnn {
+    text-align: right;
+}
+
+.img_second_resume {
+    width: 30%;
+    text-align: right;
+}
+
+.img_second_resume img {
+    width: 195px;
+    height: 175px;
+    border: 1px solid rgb(102, 102, 102);
+    border-radius: 43%;
+}
+
+.text_second_resume {
+    color: black;
+    width: 70%;
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.text_second_resume {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.second_part_resume {
+    display: flex;
+    padding: 3px 20px;
+}
+
+.left_second_resume {
+    width: 33%;
+    border-right: 1px solid rgb(180, 173, 173);
+    padding-right: 22px;
+}
+
+.left_second_resume .about_your {
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-transform: capitalize;
+    height: auto;
+}
+
+.left_second_resume .profile_name {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.education {
+    height: auto;
+    padding: 5px 0px;
+}
+
+.education_div .educatio_line {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    padding-top: 0px !important;
+    margin-bottom: 0px !important;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.education_div .edication_detail {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aqua; */
+    padding-top: 0px !important;
+    /* padding-bottom: 0px !important; */
+    margin-bottom: 0px !important;
+    font-size: 18px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.skills {
+    height: auto;
+    padding: 10px 0px;
+}
+
+.skills ul li {
+    /* list-style: none; */
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aqua; */
+    font-size: 18px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.skills ul {
+    padding-left: 15px;
+}
+
+.skills ul li {
+    /* font-size: 15px; */
+    padding: 2px 0px;
+}
+
+.right_second_resume {
+    width: 67%;
+    margin-left: 15px;
+}
+
+.second_resume_initial .exp {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    background-color: rgba(44, 44, 44, 0.729);
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px 10px !important;
+    color: #ffffff !important;
+}
+
+.second_resume_initial .work {
+    padding: 30px 20px !important;
+}
+
+.second_resume_initial .work .company_name {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aqua; */
+    font-size: 22px;
+    /* background-color: antiquewhite; */
+    /* padding-top: 0px !important; */
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    /* padding-bottom: 0px !important; */
+    font-weight: bold;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.second_resume_initial .work .work_period {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: azure; */
+    /* padding-top: 0px !important; */
+    /* padding-bottom: 0px !important; */
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    /* background-color: aqua; */
+    font-size: 22px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.second_resume_initial .work .domain {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aqua; */
+    font-size: 22px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+/* 
+.second_resume_initial p {
+    padding: 10px 0px;
+    width: 90%;
+    word-spacing: 2px;
+    padding-left: 10px;
+} */
+
+.second_resume_initial_contact .contact {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    background-color: rgba(44, 44, 44, 0.729);
+    text-transform: capitalize;
+    color: #ffffff !important;
+    font-weight: bold;
+    padding: 10px 10px !important;
+}
+
+.second_resume_initial_contact .contact_icon {
+    padding: 3px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.second_resume_initial_contact .icon {
+    padding: 3px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+    /* font-weight: bold; */
+    text-transform: capitalize;
+}
+
+.second_resume_initial_contact .icon_linkdin {
+    padding: 3px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+    /* font-weight: bold; */
+    color: rgb(0, 100, 182) !important;
+    text-transform: capitalize;
+}
+
+/* .second_resume_initial ul {
+    padding-left: 20px;
+} */
+
+.second_resume_initial .work {
+    padding: 10px 0px;
+}
+
+.second_resume_initial {
+    height: 570px;
+    /* background-color: blanchedalmond; */
+    /* padding: 0px 0px; */
+}
+
+.left_second_resume h3 {
+    padding: 12px 10px;
+    background-color: rgba(44, 44, 44, 0.729);
+    font-size: 22px;
+}
+
+.left_second_resume p {
+    padding: 1px 10px;
+    font-size: 15px;
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+    .header_part2 {
+        /* background-color: antiquewhite; */
+        padding: 10px 0px;
+        margin-top: 25px;
+        display: flex;
+    }
+
+    .btn_group_main {
+        text-align: right;
+    }
+
+    .second2resume .heading_name {
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-size: 52px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .title {
+        font-size: 23px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .btn_group_main_new {
+        text-align: left;
+    }
+
+    .add_more_btnn {
+        text-align: right;
+    }
+
+    .img_second_resume {
+        width: 30%;
+        text-align: right;
+    }
+
+    .img_second_resume img {
+        width: 185px;
+        height: 165px;
+        border: 1px solid rgb(102, 102, 102);
+        border-radius: 43%;
+    }
+
+    .text_second_resume {
+        color: black;
+        width: 70%;
+        padding-top: 30px;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .text_second_resume {
+        font-size: 23px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .second_part_resume {
+        display: flex;
+        padding: 3px 20px;
+    }
+
+    .left_second_resume {
+        width: 33%;
+        border-right: 1px solid rgb(180, 173, 173);
+        padding-right: 20px;
+        color: #ffffff !important;
+    }
+
+    .left_second_resume .about_your {
+        padding: 15px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        color: #000000;
+        text-transform: capitalize;
+        height: auto;
+    }
+
+    .left_second_resume .profile_name {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        color: #ffffff !important;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+
+    .education {
+        height: auto;
+        padding: 5px 0px;
+    }
+
+    .education_div .educatio_line {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        color: #000000;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .education_div .edication_detail {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 17px;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .skills {
+        height: auto;
+        padding: 10px 0px;
+    }
+
+    .skills ul li {
+        /* list-style: none; */
+        margin-left: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 17px;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .skills ul {
+        padding-left: 15px;
+    }
+
+    .skills ul li {
+        font-size: 15px;
+        padding: 2px 0px;
+    }
+
+    .right_second_resume {
+        width: 67%;
+        margin-left: 15px;
+        color: #ffffff !important;
+    }
+
+    .second_resume_initial .exp {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        background-color: rgba(44, 44, 44, 0.729);
+        text-transform: capitalize;
+        color: #ffffff !important;
+        font-weight: bold;
+        padding: 10px 10px !important;
+    }
+
+    .second_resume_initial .work {
+        padding: 30px 20px !important;
+    }
+
+    .second_resume_initial .work .company_name {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 22px;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        font-weight: bold;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial .work .work_period {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: azure; */
+        /* padding-top: 0px !important; */
+        /* padding-bottom: 0px !important; */
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        /* background-color: aqua; */
+        font-size: 22px;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial .work .domain {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 22px;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+
+    .second_resume_initial_contact .contact {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        background-color: rgba(44, 44, 44, 0.729);
+        text-transform: capitalize;
+        font-weight: bold;
+        padding: 10px 10px !important;
+        color: #ffffff !important;
+    }
+
+    .second_resume_initial_contact .contact_icon {
+        padding: 3px 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial_contact .icon {
+        padding: 3px 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+        /* font-weight: bold; */
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial_contact .icon_linkdin {
+        padding: 3px 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+        /* font-weight: bold; */
+        color: rgb(0, 100, 182) !important;
+        text-transform: capitalize;
+    }
+
+    /* .second_resume_initial ul {
+        padding-left: 20px;
+    } */
+
+    .second_resume_initial .work {
+        padding: 10px 0px;
+    }
+
+    .second_resume_initial {
+        height: 570px;
+        /* background-color: blanchedalmond; */
+        /* padding: 0px 0px; */
+    }
+
+}
+
+
+@media (min-width: 750px) and (max-width: 900px) {
+    .header_part2 {
+        /* background-color: antiquewhite; */
+        padding: 10px 0px;
+        margin-top: 25px;
+        display: flex;
+    }
+
+    .btn_group_main {
+        text-align: right;
+    }
+
+    .second2resume .heading_name {
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-size: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .title {
+        font-size: 22px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .btn_group_main_new {
+        text-align: left;
+    }
+
+    .add_more_btnn {
+        text-align: right;
+    }
+
+    .img_second_resume {
+        width: 30%;
+        text-align: right;
+    }
+
+    .img_second_resume img {
+        width: 175px;
+        height: 155px;
+        border: 1px solid rgb(102, 102, 102);
+        border-radius: 43%;
+    }
+
+    .text_second_resume {
+        color: black;
+        width: 70%;
+        padding-top: 30px;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .text_second_resume {
+        font-size: 22px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .second_part_resume {
+        display: flex;
+        padding: 3px 20px;
+    }
+
+    .left_second_resume {
+        width: 33%;
+        border-right: 1px solid rgb(180, 173, 173);
+        padding-right: 20px;
+        color: #ffffff !important;
+    }
+
+    .left_second_resume .about_your {
+        padding: 10px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #000000;
+        text-transform: capitalize;
+        height: auto;
+    }
+
+    .left_second_resume .profile_name {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 28px;
+        color: #ffffff !important;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+
+    .education {
+        height: auto;
+        padding: 3px 0px;
+    }
+
+    .education_div .educatio_line {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #000000;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .education_div .edication_detail {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 16px;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .skills {
+        height: auto;
+        padding: 5px 0px;
+    }
+
+    .skills ul li {
+        /* list-style: none; */
+        margin-left: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 16px;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .skills ul {
+        padding-left: 15px;
+    }
+
+    .skills ul li {
+        font-size: 14px;
+        padding: 2px 0px;
+    }
+
+    .right_second_resume {
+        width: 67%;
+        margin-left: 12px;
+        color: #ffffff !important;
+    }
+
+    .second_resume_initial .exp {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 28px;
+        background-color: rgba(44, 44, 44, 0.729);
+        text-transform: capitalize;
+        color: #ffffff !important;
+        font-weight: bold;
+        padding: 7px 10px !important;
+    }
+
+    .second_resume_initial .work {
+        padding: 30px 20px !important;
+    }
+
+    .second_resume_initial .work .company_name {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 24px;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        font-weight: bold;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial .work .work_period {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: azure; */
+        /* padding-top: 0px !important; */
+        /* padding-bottom: 0px !important; */
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        /* background-color: aqua; */
+        font-size: 19px;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial .work .domain {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 19px;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+
+    .second_resume_initial_contact .contact {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 28px;
+        background-color: rgba(44, 44, 44, 0.729);
+        text-transform: capitalize;
+        font-weight: bold;
+        padding: 7px 10px !important;
+        color: #ffffff !important;
+    }
+
+    .second_resume_initial_contact .contact_icon {
+        padding: 3px 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial_contact .icon {
+        padding: 3px 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+        /* font-weight: bold; */
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial_contact .icon_linkdin {
+        padding: 3px 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+        /* font-weight: bold; */
+        color: rgb(0, 100, 182) !important;
+        text-transform: capitalize;
+    }
+
+    /* .second_resume_initial ul {
+        padding-left: 20px;
+    } */
+
+    .second_resume_initial .work {
+        padding: 7px 0px;
+    }
+
+    .second_resume_initial {
+        height: 555px;
+        /* background-color: blanchedalmond; */
+        /* padding: 0px 0px; */
+    }
+
+}
+
+
+
+
+@media (min-width: 600px) and (max-width: 750px) {
+    .header_part2 {
+        /* background-color: antiquewhite; */
+        padding: 10px 0px;
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .btn_group_main {
+        text-align: right;
+    }
+
+    .second2resume .heading_name {
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-size: 45px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .title {
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .btn_group_main_new {
+        text-align: left;
+    }
+
+    .add_more_btnn {
+        text-align: right;
+    }
+
+    .img_second_resume {
+        width: 30%;
+        text-align: right;
+    }
+
+    .img_second_resume img {
+        width: 155px;
+        height: 135px;
+        border: 1px solid rgb(102, 102, 102);
+        border-radius: 43%;
+    }
+
+    .text_second_resume {
+        color: black;
+        width: 70%;
+        padding-top: 27px;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .text_second_resume {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .second_part_resume {
+        display: flex;
+        padding: 3px 20px;
+    }
+
+    .left_second_resume {
+        width: 33%;
+        border-right: 1px solid rgb(180, 173, 173);
+        padding-right: 18px;
+        color: #ffffff !important;
+    }
+
+    .left_second_resume .about_your {
+        padding: 7px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #000000;
+        text-transform: capitalize;
+        height: auto;
+    }
+
+    .left_second_resume .profile_name {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 26px;
+        color: #ffffff !important;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+
+    .education {
+        height: auto;
+        padding: 3px 0px;
+    }
+
+    .education_div .educatio_line {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #000000;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .education_div .edication_detail {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 15px;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .skills {
+        height: auto;
+        padding: 5px 0px;
+    }
+
+    .skills ul li {
+        /* list-style: none; */
+        margin-left: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 15px;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .skills ul {
+        padding-left: 12px;
+    }
+
+    .skills ul li {
+        font-size: 14px;
+        padding: 2px 0px;
+    }
+
+    .right_second_resume {
+        width: 67%;
+        margin-left: 12px;
+        color: #ffffff !important;
+    }
+
+    .second_resume_initial .exp {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 26px;
+        background-color: rgba(44, 44, 44, 0.729);
+        text-transform: capitalize;
+        color: #ffffff !important;
+        font-weight: bold;
+        padding: 7px 10px !important;
+    }
+
+    .second_resume_initial .work {
+        padding: 27px 18px !important;
+    }
+
+    .second_resume_initial .work .company_name {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 24px;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        font-weight: bold;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial .work .work_period {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: azure; */
+        /* padding-top: 0px !important; */
+        /* padding-bottom: 0px !important; */
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        /* background-color: aqua; */
+        font-size: 18px;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial .work .domain {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 18px;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+
+    .second_resume_initial_contact .contact {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 24px;
+        background-color: rgba(44, 44, 44, 0.729);
+        text-transform: capitalize;
+        font-weight: bold;
+        padding: 7px 10px !important;
+        color: #ffffff !important;
+    }
+
+    .second_resume_initial_contact .contact_icon {
+        padding: 3px 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial_contact .icon {
+        padding: 3px 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+        /* font-weight: bold; */
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial_contact .icon_linkdin {
+        padding: 3px 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+        /* font-weight: bold; */
+        color: rgb(0, 100, 182) !important;
+        text-transform: capitalize;
+    }
+
+    /* .second_resume_initial ul {
+        padding-left: 20px;
+    } */
+
+    .second_resume_initial .work {
+        padding: 7px 0px;
+    }
+
+    .second_resume_initial {
+        height: 555px;
+        /* background-color: blanchedalmond; */
+        /* padding: 0px 0px; */
+    }
+
+}
+
+
+@media (min-width: 450px) and (max-width: 600px) {
+    .header_part2 {
+        /* background-color: antiquewhite; */
+        padding: 7px 0px;
+        margin-top: 13px;
+        display: flex;
+    }
+
+    .btn_group_main {
+        text-align: right;
+    }
+
+    .second2resume .heading_name {
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-size: 32px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .title {
+        font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .btn_group_main_new {
+        text-align: left;
+    }
+
+    .add_more_btnn {
+        text-align: right;
+    }
+
+    .img_second_resume {
+        width: 30%;
+        text-align: right;
+    }
+
+    .img_second_resume img {
+        width: 120px;
+        height: 100px;
+        border: 1px solid rgb(102, 102, 102);
+        border-radius: 43%;
+    }
+
+    .text_second_resume {
+        color: black;
+        width: 70%;
+        padding-top: 24px;
+        text-align: left;
+        padding-left: 28px;
+    }
+
+    .text_second_resume {
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .second_part_resume {
+        display: flex;
+        padding: 3px 16px;
+    }
+
+    .left_second_resume {
+        width: 33%;
+        border-right: 1px solid rgb(180, 173, 173);
+        padding-right: 15px;
+        color: #ffffff !important;
+    }
+
+    .left_second_resume .about_your {
+        padding: 7px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: #000000;
+        text-transform: capitalize;
+        height: auto;
+    }
+
+    .left_second_resume .profile_name {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 24px;
+        color: #ffffff !important;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+
+    .education {
+        height: auto;
+        padding: 3px 0px;
+    }
+
+    .education_div .educatio_line {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #000000;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .education_div .edication_detail {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 12px;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .skills {
+        height: auto;
+        padding: 5px 0px;
+    }
+
+    .skills ul li {
+        /* list-style: none; */
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif !important;
+        /* background-color: aqua; */
+        /* font-size: 19px; */
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .skills ul {
+        padding-left: 10px;
+    }
+
+    .skills ul li {
+        font-size: 12px;
+        padding: 2px 0px;
+    }
+
+    .right_second_resume {
+        width: 67%;
+        margin-left: 02px;
+        color: #ffffff !important;
+    }
+
+    .second_resume_initial .exp {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 24px;
+        background-color: rgba(44, 44, 44, 0.729);
+        text-transform: capitalize;
+        color: #ffffff !important;
+        font-weight: bold;
+        padding: 7px 8px !important;
+    }
+
+    .second_resume_initial .work {
+        padding: 24px 15px !important;
+    }
+
+    .second_resume_initial .work .company_name {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 22px;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        font-weight: bold;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial .work .work_period {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: azure; */
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        /* background-color: aqua; */
+        font-size: 16px;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial .work .domain {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 16px;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+
+    .second_resume_initial_contact .contact {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 22px;
+        background-color: rgba(44, 44, 44, 0.729);
+        text-transform: capitalize;
+        font-weight: bold;
+        padding: 7px 7px !important;
+        color: #ffffff !important;
+    }
+
+    .second_resume_initial_contact .contact_icon {
+        padding: 3px 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial_contact .icon {
+        padding: 3px 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 13px;
+        /* font-weight: bold; */
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial_contact .icon_linkdin {
+        padding: 3px 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 13px;
+        /* font-weight: bold; */
+        color: rgb(0, 100, 182) !important;
+        text-transform: capitalize;
+    }
+
+    /* .second_resume_initial ul {
+        padding-left: 20px;
+    } */
+
+    .second_resume_initial .work {
+        padding: 7px 0px;
+    }
+
+    .second_resume_initial {
+        height: 550px;
+        /* background-color: blanchedalmond; */
+        /* padding: 0px 0px; */
+    }
+
+}
+
+@media (max-width: 450px) {
+    .header_part2 {
+        /* background-color: antiquewhite; */
+        padding: 7px 0px;
+        margin-top: 10px;
+        display: flex;
+    }
+
+    .btn_group_main {
+        text-align: right;
+    }
+
+    .second2resume .heading_name {
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-size: 26px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .title {
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .btn_group_main_new {
+        text-align: left;
+    }
+
+    .add_more_btnn {
+        text-align: right;
+    }
+
+    .img_second_resume {
+        width: 30%;
+        text-align: right;
+    }
+
+    .img_second_resume img {
+        width: 90px;
+        height: 75px;
+        border: 1px solid rgb(102, 102, 102);
+        border-radius: 43%;
+    }
+
+    .text_second_resume {
+        color: black;
+        width: 70%;
+        padding-top: 21px;
+        text-align: left;
+        padding-left: 28px;
+    }
+
+    .text_second_resume {
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .second_part_resume {
+        display: flex;
+        padding: 3px 13px;
+    }
+
+    .left_second_resume {
+        width: 33%;
+        border-right: 1px solid rgb(180, 173, 173);
+        padding-right: 13px;
+        color: #ffffff !important;
+    }
+
+    .left_second_resume .about_your {
+        padding: 7px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #000000;
+        text-transform: capitalize;
+        height: auto;
+    }
+
+    .left_second_resume .profile_name {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 21px;
+        color: #ffffff !important;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+
+    .education {
+        height: auto;
+        padding: 3px 0px;
+    }
+
+    .education_div .educatio_line {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .education_div .edication_detail {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 10px;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .skills {
+        height: auto;
+        padding: 3px 0px;
+    }
+
+    .skills ul li {
+        /* list-style: none; */
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 12px;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .skills ul {
+        padding-left: 10px;
+    }
+
+    .skills ul li {
+        font-size: 12px;
+        padding: 2px 0px;
+    }
+
+    .right_second_resume {
+        width: 67%;
+        margin-left: 2px;
+        color: #ffffff !important;
+    }
+
+    .second_resume_initial .exp {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 21px;
+        background-color: rgba(44, 44, 44, 0.729);
+        text-transform: capitalize;
+        color: #ffffff !important;
+        font-weight: bold;
+        padding: 5px 5px !important;
+    }
+
+    .second_resume_initial .work {
+        padding: 20px 10px !important;
+    }
+
+    .second_resume_initial .work .company_name {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 20px;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        font-weight: bold;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial .work .work_period {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: azure; */
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        /* background-color: aqua; */
+        font-size: 16px;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial .work .domain {
+        font-family: Arial, Helvetica, sans-serif;
+        /* background-color: aqua; */
+        font-size: 13px;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        color: #000000;
+        text-transform: capitalize;
+    }
+
+
+    .second_resume_initial_contact .contact {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 10px;
+        background-color: rgba(44, 44, 44, 0.729);
+        text-transform: capitalize;
+        font-weight: bold;
+        padding: 7px 7px !important;
+        color: #ffffff !important;
+    }
+
+    .second_resume_initial_contact .contact_icon {
+        padding: 3px 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial_contact .icon {
+        padding: 3px 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 11px;
+        /* font-weight: bold; */
+        text-transform: capitalize;
+    }
+
+    .second_resume_initial_contact .icon_linkdin {
+        padding: 3px 0px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 11px;
+        /* font-weight: bold; */
+        color: rgb(0, 100, 182) !important;
+        text-transform: capitalize;
+    }
+
+    /* .second_resume_initial ul {
+        padding-left: 20px;
+    } */
+
+    .second_resume_initial .work {
+        padding: 5px 0px;
+    }
+
+    .second_resume_initial {
+        height: 500px;
+        /* background-color: blanchedalmond; */
+        /* padding: 0px 0px; */
+    }
+
+}

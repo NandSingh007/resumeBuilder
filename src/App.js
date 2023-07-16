@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './component/Home';
+import Designe from './component/Designe';
+import Header from './component/Header';
+import ResumePageOne from './component/ResumePageOne';
+import ResumePageSecond from './component/ResumePageSecond';
+import ResumePageThird from './component/ResumePageThird';
+import ResumePageFourth from './component/ResumePageFourth';
+import About from './component/About';
+import Myresume from './component/Myresume';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Set up the router */}
+      <Router>
+        {/* Render the Header component */}
+        <Header />
+        {/* Define the routes */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/desgine/:id" element={<Designe />} />
+          <Route path="/resumefirst/:id" element={<ResumePageOne />} />
+          <Route path="/resumesecond/:id" element={<ResumePageSecond />} />
+          <Route path="/resumethird/:id" element={<ResumePageThird />} />
+          <Route path="/resumeforth/:id" element={<ResumePageFourth />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/myresume" element={<Myresume />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

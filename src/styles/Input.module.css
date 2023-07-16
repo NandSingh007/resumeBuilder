@@ -1,0 +1,51 @@
+.ContainerInput {
+    display: flex; /* Set display to flex */
+    width: 95%; /* Set width to 95% */
+    margin: 0% 2%; /* Set margin */
+    flex-direction: column; /* Set flex direction to column */
+    gap: 5px; /* Set gap between children */
+  }
+  
+  laber {
+    font-size: 21px; /* Set font size */
+    text-transform: capitalize; /* Capitalize the text */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Specify font family */
+    font-weight: 500; /* Set font weight */
+  }
+  
+  input {
+    outline: none; /* Remove outline */
+    border: 1px solid #cccccc; /* Set border */
+    padding: 10px 12px !important; /* Set padding */
+    color: black; /* Set text color */
+    border-radius: 5px; /* Set border radius */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Specify font family */
+    font-size: 19px; /* Set font size */
+  }
+  
+  input:hover {
+    border: 1px solid #adadad; /* Change border color on hover */
+  }
+  
+  input:focus {
+    border: 1px solid #239ce2; /* Change border color on focus */
+  }
+  
+  textarea {
+    outline: none; /* Remove outline */
+    border: 1px solid #cccccc; /* Set border */
+    padding: 10px 12px !important; /* Set padding */
+    color: black; /* Set text color */
+    border-radius: 5px; /* Set border radius */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Specify font family */
+    font-size: 19px; /* Set font size */
+  }
+  
+  textarea:hover {
+    border: 1px solid #adadad; /* Change border color on hover */
+  }
+  
+  textarea:focus {
+    border: 1px solid #239ce2; /* Change border color on focus */
+  }
+  
