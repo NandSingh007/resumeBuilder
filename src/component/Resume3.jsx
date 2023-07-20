@@ -22,6 +22,7 @@ const Resume3 = () => {
   const [imge, setImge] = useState('');
   const [addexper, setAddexper] = useState(false);
   const [addexpersec, setAddexpersec] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const [removeWork, setRemoveWork] = useState(false);
   // const [removeWorkTwo, setRemoveWorkTwo] = useState(false);
   const [addEdu, setAddEdu] = useState(false);

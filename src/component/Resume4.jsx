@@ -25,7 +25,9 @@ const Resume4 = () => {
   const [addexper, setAddexper] = useState(false);
   // const [count, setCount] = useState(1);
   const [addEdu, setAddEdu] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const [removeWork,setRemoveWork] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const [removeWorkTwo,setRemoveWorkTwo] = useState(false);
   // const [removeWorkThree, setRemoveWorkThree] = useState(false);
   const [addexperThree, setAddexperThree] = useState(false);
