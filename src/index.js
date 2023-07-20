@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -9,8 +9,8 @@ import App from './App';
 
 
 // Create a root element to render the application
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement);
 // Render the application wrapped in the necessary components
 root.render(
   <React.StrictMode>

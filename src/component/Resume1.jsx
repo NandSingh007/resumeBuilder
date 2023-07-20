@@ -152,7 +152,7 @@ const Resume1 = () => {
 
   const personInfo = (
     <div className="row">
-      <h2 className={styless.profile_title_heading}>{storag4.name_Title}</h2>
+    <h2 className={styless.profile_title_heading}>{storag4.title_personal}</h2>
       <div className='col-md-12'>
         {mge ? <div className={styless.mg}><img src={mge} alt="uploadedimage" width="130px" /></div> : <div className={styless.mg}><img src={profile} alt="SelectImage" /></div>}
         <InputTeg

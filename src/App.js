@@ -15,18 +15,16 @@ function App() {
     <div className="App">
       {/* Set up the router */}
       <Router>
-        {/* Render the Header component */}
         <Header />
-        {/* Define the routes */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/myresume" element={<Myresume />} />
           <Route path="/desgine/:id" element={<Designe />} />
           <Route path="/resumefirst/:id" element={<ResumePageOne />} />
           <Route path="/resumesecond/:id" element={<ResumePageSecond />} />
           <Route path="/resumethird/:id" element={<ResumePageThird />} />
           <Route path="/resumeforth/:id" element={<ResumePageFourth />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/myresume" element={<Myresume />} />
         </Routes>
       </Router>
     </div>

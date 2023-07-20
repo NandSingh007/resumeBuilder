@@ -24,7 +24,7 @@ const Header = () => {
         <div className={`nav-elements  ${showNavbar && 'active'}`}>
           <ul>
             <li>
-              <NavLink to="/">Resume Template</NavLink> {/* Link to the "Resume Template" page */}
+              <NavLink to="*">Resume Template</NavLink> {/* Link to the "Resume Template" page */}
             </li>
             <li>
               <NavLink to="/myresume">My Resume</NavLink> {/* Link to the "My Resume" page */}
