@@ -16,7 +16,7 @@ const Header = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          <img src={r_icon} width='95px' alt="" /> {/* Logo image */}
+          <img src={r_icon} width='90px' alt="" /> {/* Logo image */}
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>
           <MenuIcon /> {/* Menu icon */}
